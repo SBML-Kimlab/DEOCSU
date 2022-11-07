@@ -4,6 +4,17 @@ DEOCSU(**DE**ep-learning **O**ptimized **C**hIP-exo peak calling **SU**ite) is a
 
 ![Figure1](https://user-images.githubusercontent.com/42198206/200239582-813f61a0-7c78-422d-aff1-5c42173199bb.png)
 
-Recognizing binding sites of DNA-binding proteins is a key factor for elucidating transcriptional regulation in organisms. ChIP-exo enables researchers to delineate genome-wide binding landscapes of DNA-binding proteins with near single base-pair resolution. However, the peak calling step hinders ChIP-exo application since the published algorithms tend to generate false-positive and false-negative predictions. Here, we report the development of DEOCSU (DEep-learning Optimized ChIP-exo peak calling SUite), a novel machine learning-based ChIP-exo peak-calling suite. DEOCSU entails the deep convolutional neural network model which was trained with curated ChIP-exo peak data to distinguish the visualized data of bona fide peaks from false ones. Performance validation of the trained deep-learning model indicated its high accuracy, high precision, and high recall of over 95%. Applying the new suite to both in-house and publicly available ChIP-exo datasets obtained from bacteria, eukaryotes, and archaea revealed an accurate prediction of peaks containing canonical motifs, highlighting the versatility and efficiency of DEOCSU. Furthermore, DEOCSU can be executed on a cloud computing platform or the local environment. With visualization software included in the suite, adjustable options such as the threshold of peak probability, and iterable updating of the pre-trained model, DEOCSU can be optimized for users’ specific needs.
+Chromatin immunoprecipitation (ChIP) has been widely used to investigate DNA-binding proteins (e.g. transcription factors (TF) or transcriptional machinery) and their binding location at the genome-scale level. Although ChIP-exo increases the signal-to-noise ratio and allows researchers to identify high-resolution binding sites, a peak calling step for selecting bona fide peaks is time-consuming, and labor-intensive which is a major rate-limiting step of ChIP-exo data analysis. 
+
+Here, we report the development of DEOCSU (DEep-learning Optimized ChIP-exo peak calling SUite), a novel machine learning-based ChIP-exo peak-calling suite. 
+
+- DEOCSU entails the deep convolutional neural network model which was trained with curated ChIP-exo peak data to distinguish the visualized data of bona fide peaks from false ones. 
+
+- Performance validation of the trained deep-learning model indicated its high accuracy, high precision, and high recall of over 95%. 
+
+- DEOCSU can be executed on a cloud computing platform or the local environment. 
+
+- With visualization software(https://github.com/SBML-Kimlab/MetaScope), adjustable options such as the threshold of peak probability, and iterable updating of the pre-trained model, DEOCSU can be optimized for users’ specific needs.
+
 
 
