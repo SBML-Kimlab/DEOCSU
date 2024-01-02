@@ -16,5 +16,5 @@ Our newly developed DEOCSU has following characteristics
 
 - With visualization software(https://github.com/SBML-Kimlab/MetaScope), adjustable options such as the threshold of peak probability, and iterable updating of the pre-trained model, DEOCSU can be optimized for users’ specific needs.
 
-
-
+If you have any questions, please feel free to contact the author via email.
+https://sites.google.com/view/systemskimlab
